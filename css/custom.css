@@ -1,0 +1,111 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+header#nav-header {
+	background: #fd7e14 !important;
+}
+
+.color-primary {
+	background: #fd7e14;
+	color: white;
+}
+
+#nav-header .nav-item{
+	margin-right: 80px;
+}
+
+#nav-header ul.navbar-nav li a.nav-link{
+	color: #f5dfdf;
+}
+
+#nav-header ul.navbar-nav li.active a.nav-link{
+	color: white;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mt-15 {
+	margin-top: 15px;
+}
+
+img.d-block.w-100.carousel-slide-image {
+    height: 333px;
+}
+
+.hotline h4 {
+	color: #00613d;
+}
+
+.color-hotline {
+	color: #fd7e14;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#number-hotline {
+	position: relative;
+}
+
+.img-hotline {
+	width: 37px;
+	top: -10px;
+	position: absolute;
+}
+
+
+h3.heading {
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ef5222;
+    display: inline-block;
+}
+
+.color-text-primary {
+	color: #ef5222;
+	font-weight: bold
+}
+
+.card-info p {
+	color: #075c2f;
+	font-style: italic;
+	font-weight: bold
+}
+
+/*=============================================INFO=======================================*/
+
+.info-block {
+    position: relative;
+}
+
+.info-block img {
+    position: absolute;
+    top: 30%;
+    width: 80px;
+}
+
+.info-text {
+    margin-left: 90px;
+}
+
+.info-block .info-text p {
+    text-align: justify;
+}
+
+.info-block .info-text h3 {
+    color: #ef5222;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-block .info-text a {
+    float: right;
+    color: #ef5222;
+    font-style: italic;
+}
