@@ -8,6 +8,10 @@ header#nav-header {
 	background: #fd7e14 !important;
 }
 
+footer {
+	background: #fd7e14;	
+}
+
 .color-primary {
 	background: #fd7e14;
 	color: white;
@@ -108,4 +112,14 @@ h3.heading {
     float: right;
     color: #ef5222;
     font-style: italic;
+}
+
+
+.footer-category li{
+	margin-bottom: 10px;
+}
+
+.footer-category li a{
+	color: black;
+	margin-left: 10px;
 }
