@@ -5,6 +5,10 @@ function setDateForDateTimeTextbox() {
 	$('#date-textbox').val(date);
 }
 
+function disableSeat() {
+	$("button.color-gray").css('cursor','not-allowed').prop('disabled', true).prop('title', 'Ghế này đã được đặt').html('');
+}
+
 function updatingInfo() {
 	alert("Trang này đang được sửa chữa");
 }
@@ -16,4 +20,5 @@ $( document ).ready(function() {
 	});
 
 	setDateForDateTimeTextbox();
+	disableSeat();
 });

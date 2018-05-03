@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Info</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+	<header id="nav-header">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<img src="images/bus.png" width="90px" height="90px">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Lịch trình</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Giới thiệu</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Liên hệ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Đăng nhập</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Đăng ký</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div id="wrapper" class="mt-30">
+		<div class="container">
+            <h1 class="text-center mt-15">Thông tin</h1>
+			<div class="row mt-30">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title text-center color-text-primary">Thông tin hành khách</p>
+                            <form>
+                                <div class="form-group">
+                                    <label class="text-strong">Họ và tên (*)</label>
+                                    <input type="text" class="form-control" placeholder="Nguyễn Văn A">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="text-strong">Email (*)</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="text-strong">Ngày sinh (*)</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="text-strong">Di động (*)</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="text-strong">Di động 2 (*)</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="text-strong">Tỉnh/TP (*)</label>
+                                            <select class="custom-select" id="inputGroupSelect03">
+                                                <option selected value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="text-strong">Quận/Huyện (*)</label>
+                                            <select class="custom-select" id="inputGroupSelect03">
+                                                <option selected value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input">
+                                        Chấp nhận <a><u class="color-text-primary" id="condition">điều khoản</u></a> đặt vé của NVHD Bus Online 
+                                    </label>
+                                </div>
+                                <div class="row mt-15">
+                                    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 col-ms-12">
+                                        <button class="btn btn-primary">Quay lại</button>
+                                        <button class="btn btn-success">Chấp nhận</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title text-center color-text-primary">Điều khoản và lưu ý</p>
+                            <div>
+                                <p class="text-justify">(*) Quý khách vui lòng mang email có chứa mã vé đến văn phòng để đổi vé lên xe trước giờ xuất bến ít nhất <strong class="color-text-primary">60 phút</strong> để chúng tôi trung chuyển.</p>
+                                <p class="text-justify">(*) Thông tin hành khách phải chính xác, nếu không sẽ không thể lên xe hoặc hủy/đổi vé</p>
+                                <p class="text-justify">(*) Quý khách không được đổi / trả vé vào các ngày Lễ Tết ( ngày thường qúy khách được quyền chuyển đổi hoặc hủy vé <strong class="color-text-primary">một lần</strong> duy nhất trước giờ xe chạy 24 giờ), phí hủy vé 10%. </p>
+                                <p class="text-justify">(*) Nếu quý khách có nhu cầu trung chuyển, vui lòng liên hệ số điện thoại
+                                <strong class="color-text-primary" style="font-size: 1.2em;">1900 6067</strong> 
+                                trước khi đặt vé. Chúng tôi sẽ không đón/ trung chuyển tại những điểm xe trung chuyển không thể tới được.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<footer class="mt-15">
+		<div class="container">
+			<div class="row" style="padding: 20px 0px 30px 0px">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-ms-12">
+					<h4>Fanpage Facebook</h4>
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fxephuongtrang%2F%3Fhc_ref%3DARRDtLfcfbVn5gyc2cBhD7_FH6XEd4wU7pEBk_6t3ZHsuhZ0spgCO6E7y2TjwN33q8A%26fref%3Dnf&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=781307525384702" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-ms-12">
+					<h4>Danh mục</h4>
+					<ul class="footer-category">
+						<li><span><i class="fa fa-arrow-right"></i></span><a href="#">Trang chủ</a></li>
+						<li><span><i class="fa fa-arrow-right"></i></span><a href="#">Liên hệ</a></li>
+						<li><span><i class="fa fa-arrow-right"></i></span><a href="#">Giới thiệu</a></li>
+						<li><span><i class="fa fa-arrow-right"></i></span><a href="#">Lịch trình</a></li>
+						<li><span><i class="fa fa-arrow-right"></i></span><a href="#">Đăng nhập</a></li>
+						<li><span><i class="fa fa-arrow-right"></i></span><a href="#">Đăng ký</a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-ms-12">
+					<h4>Theo dõi</h4>
+					<p>Đăng ký email để nhận được những ưu đãi</p>
+					<form class="form-inline my-2 my-lg-0">
+				      	<input class="form-control mr-sm-2" type="search" placeholder="Nhập email của bạn" aria-label="Search">
+				      	<button class="btn btn-primary my-2 my-sm-0" type="submit">Đăng ký</button>
+				    </form>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+	<script src="js/custom.js"></script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12&appId=781307525384702&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

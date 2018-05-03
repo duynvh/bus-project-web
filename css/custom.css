@@ -5,15 +5,15 @@
 }
 
 header#nav-header {
-	background: #fd7e14 !important;
+	background: #ef5222 !important;
 }
 
 footer {
-	background: #fd7e14;	
+	background: #ef5222;	
 }
 
 .color-primary {
-	background: #fd7e14;
+	background: #ef5222;
 	color: white;
 }
 
@@ -46,7 +46,7 @@ img.d-block.w-100.carousel-slide-image {
 }
 
 .color-hotline {
-	color: #fd7e14;
+	color: #ef5222;
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -122,4 +122,48 @@ h3.heading {
 .footer-category li a{
 	color: black;
 	margin-left: 10px;
+}
+
+/* SEAT */
+.seat {
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+	text-align: center;
+}
+
+.color-white {
+	background: rgb(239, 248, 212);
+}
+
+.color-gray {
+	background: rgb(138, 137, 137);
+	color: rgb(180, 176, 176);
+}
+
+.icon-bg-small {
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+}
+
+.disabledbutton {
+    pointer-events: none;
+	opacity: 0.4;
+	content: "Ghế đã được đặt";
+}
+
+.text-strong {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#bg-facebook {
+	background: #3d5c98;
+	color: #fff;
+}
+
+#bg-facebook {
+	background: #3d5c98;
+	color: #fff;
 }
